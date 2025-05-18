@@ -1,0 +1,15 @@
+parameters:
+    level: 9
+    treatPhpDocTypesAsCertain: false
+    paths:
+        - src
+        - tests
+    ignoreErrors:
+        - '#Unsafe usage of new static\(\).#'
+        - '#Method .* should return string but returns string\|null.#'
+        - '#type has no value type specified in iterable type array#'
+        - '#array_map expects.*Closure\(array\): static given#'
+        - '#Property .* does not accept mixed.#'
+        - '#is never assigned#'
+        - '#is never written, only read#'
+        - '#should return array<string, mixed> but returns mixed#'
